@@ -8,6 +8,7 @@ public class test {
 				// TODO Auto-generated method stub
 				LinkedList<Integer> listIntegerOne=new LinkedList<Integer>();
 			    LinkedList<Integer> listIntegerTwo=new LinkedList<Integer>();
+			    
 				listIntegerOne.add(2);
 				listIntegerOne.add(4);
 				listIntegerOne.add(3);
@@ -75,7 +76,6 @@ public class test {
   				
  				// since we have integer we do the same for another linkedList
  			
- 				
  				String l2IntegerString=null;
  				
  				for( int a: l2IntegerLinkedList) {
@@ -99,31 +99,6 @@ public class test {
  				return  (ListNode) summedLinkedList;
 
  				
-				  
-//				for(int a:l1){
-//				 
-//					if(formulateNumberOne=="") {
-//						formulateNumberOne= Integer.toString(a);
-//					}else {
-//						formulateNumberOne=formulateNumberOne.concat(Integer.toString(a));
-//					}
-//				};
-//				
-//				String formulateNumberTwo="";
-//				for(int a:l2){
-//				 
-//					if(formulateNumberTwo=="") {
-//						formulateNumberTwo= Integer.toString(a);
-//					}else {
-//						formulateNumberTwo=formulateNumberTwo.concat(Integer.toString(a));
-//					}
-//				};
-//				
-//				int one=Integer.parseInt(formulateNumberOne);
-//				int two=Integer.parseInt(formulateNumberTwo);
-//				System.out.println(one+two);
-//				
-			 
 			}
 
 		}
